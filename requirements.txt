@@ -1,0 +1,6 @@
+apache-airflow-providers-airbyte
+boto3
+duckdb
+motherduck
+pytest
+requests

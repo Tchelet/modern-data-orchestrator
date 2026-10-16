@@ -1,0 +1,41 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets/
+
+# Python environments and caches
+.venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+__pycache__/
+*.py[cod]
+.coverage
+htmlcov/
+*.egg-info/
+dist/
+build/
+
+# Astro / Airflow local state
+.astro/
+logs/
+airflow.db
+airflow.cfg
+standalone_admin_password.txt
+*.sqlite
+*.sqlite3
+
+# Local object storage
+infra/minio_data/
+infra/tmp/
+
+# Editor and OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.log

@@ -1,0 +1,9 @@
+airflow:
+  connections:
+    - conn_id: airbyte_default
+      conn_type: http
+      conn_host: http://host.docker.internal:8000
+      conn_extra: '{}'
+  variables:
+    - variable_name: project_env
+      variable_value: local
